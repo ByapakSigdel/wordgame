@@ -5,8 +5,8 @@ function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>This is HomePage</p>
-        <PlayGame />
+      <p className="ml-4 text-red-500 text-xl">This is HomePage</p>
+
       </header>
     </div>
   );
