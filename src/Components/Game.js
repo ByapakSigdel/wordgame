@@ -1,18 +1,16 @@
 import React from 'react';
-import TextBox from './TextBox';
 import UserGrid from './UserGrid';
+import Footer from './ExitModal';
+import TextBox from './TextBox'
 
-function Game() {
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>GamePage</p>
-        
-        <UserGrid />
-        <TextBox />
-      </header>
+    <div className="flex flex-col min-h-screen bg-gray-800 text-white">
+      <UserGrid />
+      <TextBox />
+     
     </div>
   );
 }
 
-export default Game;
+export default App;
